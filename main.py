@@ -25,5 +25,7 @@ def get_posts(new_post: Post):
     print(new_post.content)
     print(new_post.published)
     print(new_post.rating)
+    print(new_post)
+    print(new_post.model_dump())
     return {"data":"new post"}
     #return {"new_post": f'title - {payload['title']} content - {payload['content']}'}
